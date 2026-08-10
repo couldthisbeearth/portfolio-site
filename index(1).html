@@ -57,13 +57,14 @@
     overflow:hidden;
   }
   .frame img{
+    .frame img{
     width:100%; height:100%;
-    object-fit:cover; object-position:center top;
+    object-fit:cover;
     display:block;
-    transform:scale(1.12);
-    filter:blur(6px);
-    opacity:0;
-    transition:transform 1.4s cubic-bezier(0.16,1,0.3,1), filter 1.4s cubic-bezier(0.16,1,0.3,1), opacity 1s ease;
+    transform:scale(1);
+    filter:blur(0);
+    opacity:1;
+}
   }
   .frame.visible img{
     transform:scale(1);
